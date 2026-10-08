@@ -1,0 +1,4 @@
+opencv 5.0.0.0
+matplotlib 1.0
+numpy 1.0
+torch 1.0
