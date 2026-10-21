@@ -8,7 +8,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
 
-DEFAULT_IMAGE = Path(__file__).resolve().parents[1] / "data" / "image.png"
+DEFAULT_IMAGE = Path(__file__).resolve().parents[1] / "data" / "imageBW.png" #このものは過去いいですよ。
 
 
 def read_grayscale(path):
@@ -16,7 +16,7 @@ def read_grayscale(path):
     encoded = np.fromfile(str(path), dtype=np.uint8)
     image = cv2.imdecode(encoded, cv2.IMREAD_GRAYSCALE)
     if image is None:
-        raise ValueError(f"Cannot read image: {path}")
+        raise ValueError(f"Cannot read image: {path}") #私の本は新しいですよ。
     return image
 
 
@@ -222,7 +222,7 @@ class ImageProcessingApp:
             f"std={self.current_image.std():.1f}"
         )
 
-#FUCK PYTHON
+#ふぁくぴいとぬ
 def main():
     image = read_grayscale(DEFAULT_IMAGE)
     root = tk.Tk()
