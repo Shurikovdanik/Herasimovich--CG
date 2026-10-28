@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Цель работы}{2}{}%
+\contentsline {section}{\numberline {2}Постановка задачи}{2}{}%
+\contentsline {section}{\numberline {3}Теоретические сведения}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Линейное контрастирование}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Эквализация гистограммы}{2}{}%
+\contentsline {subsection}{\numberline {3.3}Обнаружение точек}{3}{}%
+\contentsline {subsection}{\numberline {3.4}Обнаружение линий}{3}{}%
+\contentsline {subsection}{\numberline {3.5}Обнаружение перепадов яркости}{3}{}%
+\contentsline {section}{\numberline {4}Описание программы}{3}{}%
+\contentsline {section}{\numberline {5}Эксперимент и результаты}{4}{}%
+\contentsline {section}{\numberline {6}Проверка реализации}{6}{}%
+\contentsline {section}{\numberline {7}Вывод}{6}{}%
+\contentsline {section}{Список источников}{7}{}%
