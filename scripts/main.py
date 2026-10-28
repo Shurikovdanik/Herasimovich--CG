@@ -8,7 +8,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
 
-DEFAULT_IMAGE = Path(__file__).resolve().parents[1] / "data" / "imageBW.png" #importはこの行で行う
+DEFAULT_IMAGE = Path(__file__).resolve().parents[1] / "data" / "flower.jpg" #importはこの行で行う
 
 
 def read_grayscale(path):
@@ -19,6 +19,14 @@ def read_grayscale(path):
         raise ValueError(f"Cannot read image: {path}")
     return image
 
+
+def read_colored(path):
+    """Read an image as color (BGR), including non-ASCII paths."""
+    encoded = np.fromfile(str(path), dtype=np.uint8)
+    image = cv2.imdecode(encoded, cv2.IMREAD_COLOR)
+    if image is None:
+        raise ValueError(f"Cannot read image: {path}")
+    return image
 
 def minmax_stretch(image, out_min=0, out_max=255):
     in_min = int(np.min(image))
@@ -32,11 +40,12 @@ def minmax_stretch(image, out_min=0, out_max=255):
 
 def analyze_image(image):
     """Run the variant-4 contrast enhancement and point/line/edge methods."""
-    if image is None or image.ndim != 2 or image.size == 0:
-        raise ValueError("Expected a non-empty grayscale image.")
+    #if image is None or image.ndim != 2 or image.size == 0:
+    #    raise ValueError("Expected a non-empty grayscale image.")
 
     stretched = minmax_stretch(image)
-    equalized = cv2.equalizeHist(image)
+    imgg=cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+    equalized = cv2.equalizeHist(imgg)
 
     laplacian = cv2.Laplacian(image, cv2.CV_32F, ksize=3)
     point_response = np.abs(laplacian)
@@ -47,7 +56,7 @@ def analyze_image(image):
 
     smoothed = cv2.GaussianBlur(image, (5, 5), 0)
     canny = cv2.Canny(smoothed, 50, 150)
-    line_image = cv2.cvtColor(image, cv2.COLOR_GRAY2RGB)
+    line_image = cv2.cvtColor(smoothed, cv2.COLOR_RGB2GRAY)
     min_line_length = max(10, min(image.shape) // 8)
     hough_lines = cv2.HoughLinesP(
         canny,
@@ -172,10 +181,11 @@ class ImageProcessingApp:
             axis.axis("off")
 
         histogram_axis = axes.flat[8]
+        imgg = cv2.cvtColor(self.current_image, cv2.COLOR_RGB2GRAY)
         for image, label, color in (
             (self.current_image, "Original", "gray"),
             (minmax_stretch(self.current_image), "Min-max", "green"),
-            (cv2.equalizeHist(self.current_image), "Equalized", "blue"),
+            (cv2.equalizeHist(imgg), "Equalized", "blue"),
         ):
             histogram_axis.hist(
                 image.ravel(),
@@ -223,7 +233,7 @@ class ImageProcessingApp:
         )
 
 def main():
-    image = read_grayscale(DEFAULT_IMAGE)
+    image = read_colored(DEFAULT_IMAGE)
     root = tk.Tk()
     ImageProcessingApp(root, image)
     root.mainloop()
