@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1793807904.32427 "c:/games/Herasimovich--CG/report/herasimovichd_labw3_report.tex" "herasimovichd_labw3_report.pdf" "herasimovichd_labw3_report" 1793807908.47036 0
+["lualatex"] 1793809640.33137 "c:/games/Herasimovich--CG/report/herasimovichd_labw3_report.tex" "herasimovichd_labw3_report.pdf" "herasimovichd_labw3_report" 1793809644.6347 0
   "C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1793306281 132561 8a5a95b13a9d8f2406c97019e8b712bb ""
   "C:/Users/DELL/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/arial.luc" 1793807818 699193 64adbfbb7c40dd6476115da04e94f291 ""
   "C:/Users/DELL/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/arialbd.luc" 1793807821 695585 8f099da42a0e91c06d822a795c6c8c06 ""
@@ -249,11 +249,11 @@
   "C:/WINDOWS/Fonts/times.ttf" 1793216410 1190952 2996a23c2a9bf485a48a089c37855927 ""
   "C:/WINDOWS/Fonts/timesbd.ttf" 1793216410 1170312 9f2163d33872d929be3ba31ae00d1268 ""
   "C:/WINDOWS/Fonts/timesi.ttf" 1793216410 963084 da7c43458c93bb3dfa52c9098d957d8e ""
-  "c:/games/Herasimovich--CG/report/herasimovichd_labw3_report.tex" 1793807888 23609 3d0cff36b0190178a4cfc1bb7f5e9150 ""
-  "herasimovichd_labw3_report.aux" 1793807907 5535 36e95b80dff54722c7efa7ab26114831 "lualatex"
-  "herasimovichd_labw3_report.out" 1793807907 6852 21143da65c4470a192154b27dd1f3a37 "lualatex"
-  "herasimovichd_labw3_report.tex" 1793807888 23609 3d0cff36b0190178a4cfc1bb7f5e9150 ""
-  "herasimovichd_labw3_report.toc" 1793807907 3196 9ad954b604c9da9242fccf5adf40b955 "lualatex"
+  "c:/games/Herasimovich--CG/report/herasimovichd_labw3_report.tex" 1793809626 24470 d19bc542e4c3119d87530f7f2005300b ""
+  "herasimovichd_labw3_report.aux" 1793809643 5535 36e95b80dff54722c7efa7ab26114831 "lualatex"
+  "herasimovichd_labw3_report.out" 1793809643 6852 21143da65c4470a192154b27dd1f3a37 "lualatex"
+  "herasimovichd_labw3_report.tex" 1793809626 24470 d19bc542e4c3119d87530f7f2005300b ""
+  "herasimovichd_labw3_report.toc" 1793809643 3196 9ad954b604c9da9242fccf5adf40b955 "lualatex"
   (generated)
   "herasimovichd_labw3_report.aux"
   "herasimovichd_labw3_report.log"
