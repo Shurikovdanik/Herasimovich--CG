@@ -3,29 +3,32 @@
 \contentsline {subsection}{\numberline {1.1}Цель работы}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Постановка задачи}{3}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Среда разработки}{3}{subsection.1.3}%
-\contentsline {section}{\numberline {2}Теоретическая часть}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Понятие растеризации}{3}{subsection.2.1}%
+\contentsline {section}{\numberline {2}Теоретическая часть}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Понятие растеризации}{4}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Пошаговый алгоритм}{4}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Алгоритм ЦДА (DDA)}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Алгоритм Брезенхема для отрезка}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Алгоритм Брезенхема для отрезка}{5}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Алгоритм Брезенхема для окружности}{5}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Реализация}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Архитектура приложения}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Привязка координат к дискретной сетке}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Пользовательский интерфейс}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Согласование правил округления}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Пользовательский интерфейс}{7}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Тестирование и примеры вычислений}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Пошаговый алгоритм}{7}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Алгоритм ЦДА}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Алгоритм ЦДА}{8}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Алгоритм Брезенхема для отрезка}{8}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Алгоритм Брезенхема для окружности}{8}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Временные характеристики}{9}{section.5}%
-\contentsline {section}{\numberline {6}Реализация дополнительных возможностей}{9}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Анимация}{9}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Масштабирование}{10}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Замер времени}{10}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Заключение}{10}{section.7}%
-\contentsline {section}{\numberline {A}Ключевые фрагменты кода}{10}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Алгоритм Брезенхема для отрезка}{10}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Алгоритм Брезенхема для окружности}{11}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Привязка координат к дискретной сетке}{12}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}Выводы:}{12}{subsection.A.4}%
+\contentsline {subsection}{\numberline {4.4}Случай, когда алгоритмы расходятся}{9}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Алгоритм Брезенхема для окружности}{9}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Временные характеристики}{10}{section.5}%
+\contentsline {section}{\numberline {6}Реализация дополнительных возможностей}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Анимация}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Масштабирование}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Замер времени}{11}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Заключение}{11}{section.7}%
+\contentsline {section}{\numberline {A}Ключевые фрагменты кода}{12}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Алгоритм Брезенхема для отрезка}{12}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Алгоритм Брезенхема для окружности}{13}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Привязка координат к дискретной сетке}{13}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Округление, совместимое с эталоном}{13}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Выводы}{14}{subsection.A.5}%
