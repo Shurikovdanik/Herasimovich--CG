@@ -179,3 +179,13 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+report/herasimovichd_labw3_report.fdb_latexmk
+*.aux
+*.fdb_latexmk
+*.out
+*.toc
+*.gz
+*.aux
+*.fdb_latexmk
+*.out
+*.gz

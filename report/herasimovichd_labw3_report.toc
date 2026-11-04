@@ -28,3 +28,4 @@
 \contentsline {subsection}{\numberline {A.1}Алгоритм Брезенхема для отрезка}{10}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}Алгоритм Брезенхема для окружности}{11}{subsection.A.2}%
 \contentsline {subsection}{\numberline {A.3}Привязка координат к дискретной сетке}{12}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Выводы:}{12}{subsection.A.4}%

@@ -185,7 +185,7 @@ class RasterApp:
     def _build_ui(self):
         header = ttk.Label(
             self.root,
-            text="Лабораторная работа 3. Базовые растровые алгоритмы",
+            text="素朴なピクセル線画",
             font=("TkDefaultFont", 12, "bold"),
         )
         header.pack(anchor="w", padx=16, pady=(12, 6))
